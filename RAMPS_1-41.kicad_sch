@@ -4588,36 +4588,49 @@
 						(type none)
 					)
 				)
-				(text "1A"
-					(at 5.6896 -7.2898 0)
+				(text "(VIO) VDD"
+					(at 9.398 -12.7 0)
 					(effects
 						(font
 							(size 0.6604 0.6604)
 						)
+						(justify right)
+					)
+				)
+				(text "1A"
+					(at 9.398 -7.62 0)
+					(effects
+						(font
+							(size 0.6604 0.6604)
+						)
+						(justify right)
 					)
 				)
 				(text "1B"
-					(at 5.6896 -9.8298 0)
+					(at 9.398 -10.16 0)
 					(effects
 						(font
 							(size 0.6604 0.6604)
 						)
+						(justify right)
 					)
 				)
 				(text "2A"
-					(at 5.6896 -4.7498 0)
+					(at 9.398 -5.08 0)
 					(effects
 						(font
 							(size 0.6604 0.6604)
 						)
+						(justify right)
 					)
 				)
 				(text "2B"
-					(at 5.6896 -2.2098 0)
+					(at 9.398 -2.54 0)
 					(effects
 						(font
 							(size 0.6604 0.6604)
 						)
+						(justify right)
 					)
 				)
 				(text "A4988 Carrier"
@@ -4629,99 +4642,102 @@
 					)
 				)
 				(text "Dir"
-					(at -16.8656 -14.9098 0)
+					(at -19.558 -15.24 0)
 					(effects
 						(font
 							(size 0.6604 0.6604)
 						)
-					)
-				)
-				(text "Enable (inverted)"
-					(at -12.4714 2.8448 0)
-					(effects
-						(font
-							(size 0.6604 0.6604)
-						)
+						(justify left)
 					)
 				)
 				(text "GND"
-					(at 5.9944 -14.9098 0)
+					(at 9.398 -15.24 0)
 					(effects
 						(font
 							(size 0.6604 0.6604)
 						)
+						(justify right)
 					)
 				)
 				(text "GND"
-					(at 5.9944 0.3048 0)
+					(at 9.398 0 0)
 					(effects
 						(font
 							(size 0.6604 0.6604)
 						)
+						(justify right)
 					)
 				)
-				(text "MS1"
-					(at -16.8656 0.3048 0)
+				(text "MS1 (SDI/CFG1)"
+					(at -19.558 0 0)
 					(effects
 						(font
 							(size 0.6604 0.6604)
 						)
+						(justify left)
 					)
 				)
-				(text "MS2"
-					(at -16.8656 -2.2098 0)
+				(text "MS2 (SCK/CFG2)"
+					(at -19.558 -2.54 0)
 					(effects
 						(font
 							(size 0.6604 0.6604)
 						)
+						(justify left)
 					)
 				)
-				(text "MS3"
-					(at -16.8656 -4.7498 0)
+				(text "MS3 (CS/CFG3)"
+					(at -19.558 -5.08 0)
 					(effects
 						(font
 							(size 0.6604 0.6604)
 						)
-					)
-				)
-				(text "Reset (inverted)"
-					(at -12.7762 -7.2898 0)
-					(effects
-						(font
-							(size 0.6604 0.6604)
-						)
-					)
-				)
-				(text "Sleep (inverted)"
-					(at -12.7762 -9.8298 0)
-					(effects
-						(font
-							(size 0.6604 0.6604)
-						)
+						(justify left)
 					)
 				)
 				(text "Step"
-					(at -16.5354 -12.3698 0)
+					(at -19.558 -12.7 0)
 					(effects
 						(font
 							(size 0.6604 0.6604)
 						)
-					)
-				)
-				(text "VDD"
-					(at 5.9944 -12.3698 0)
-					(effects
-						(font
-							(size 0.6604 0.6604)
-						)
+						(justify left)
 					)
 				)
 				(text "Vmot"
-					(at 6.3246 2.8448 0)
+					(at 9.398 2.54 0)
 					(effects
 						(font
 							(size 0.6604 0.6604)
 						)
+						(justify right)
+					)
+				)
+				(text "~{Enable}"
+					(at -19.558 2.54 0)
+					(effects
+						(font
+							(size 0.6604 0.6604)
+						)
+						(justify left)
+					)
+				)
+				(text "~{Reset} (SDO/CFG0)"
+					(at -19.558 -7.62 0)
+					(effects
+						(font
+							(size 0.6604 0.6604)
+						)
+						(justify left)
+					)
+				)
+				(text "~{Sleep} (DC0)"
+					(at -19.558 -10.16 0)
+					(effects
+						(font
+							(size 0.6604 0.6604)
+						)
+						(justify left)
 					)
 				)
 			)
